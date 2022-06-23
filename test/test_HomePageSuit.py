@@ -117,7 +117,6 @@ class TestHomePageBanner(BaseClass):
         log.info(tablesearchbutton.text)
         self.driver.execute_script("arguments[0].scrollIntoView();", tablesearchbutton)
         assert "Search Tables" in tablesearchbutton.text
-        log.info("ADDED FIT TEST")
 
 
 
