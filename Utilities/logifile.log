@@ -45,3 +45,38 @@
 2022-06-23 20:08:53,112 :INFO :test_HomeBanners :FEATURED RESTAURANTS
 2022-06-23 20:08:53,136 :INFO :test_HomeBanners :Safe Entry Booking in favourite Restaurant
 2022-06-23 20:08:53,156 :INFO :test_HomeBanners :Search Tables
+2022-06-23 20:11:32,426 :INFO :test_HomeBanners :Top banner test cases starts from here
+2022-06-23 20:11:32,754 :INFO :test_HomeBanners :['Chocolates', 'Clothing', 'Electroincs', 'Fashion', 'Gifts', 'Mobile', 'Sports & Active Wear', 'Topwear1', "Women's", 'Confectionery', 'Cleaning', 'Food & Drink', 'Sports']
+2022-06-23 20:11:32,754 :INFO :test_HomeBanners :The expected category is matching with the actual
+2022-06-23 20:11:32,754 :INFO :test_HomeBanners :Categories are visible
+2022-06-23 20:11:33,618 :INFO :test_HomeBanners :banner 1 is present
+2022-06-23 20:11:34,098 :INFO :test_HomeBanners :Banner 2 is available
+2022-06-23 20:11:34,200 :INFO :test_HomeBanners :Banner 3 is available
+2022-06-23 20:11:34,284 :INFO :test_HomeBanners :Banner 4 is available
+2022-06-23 20:11:34,309 :INFO :test_HomeBanners :DISCOVER LOCAL SHOPS IN YOUR AREA
+2022-06-23 20:11:34,392 :INFO :test_HomeBanners :['Clothing', 'Beauty', 'Hobbies & Craft', 'Restaurants, Cafes & Bars', 'Alcohol', 'Groceries']
+2022-06-23 20:11:34,392 :INFO :test_HomeBanners :The expected category is matching with the actual
+2022-06-23 20:11:34,407 :INFO :test_HomeBanners :FEATURED LOCAL SUPERMARKETS
+2022-06-23 20:11:34,428 :INFO :test_HomeBanners :FEATURED RESTAURANTS
+2022-06-23 20:11:34,449 :INFO :test_HomeBanners :Safe Entry Booking in favourite Restaurant
+2022-06-23 20:11:34,480 :INFO :test_HomeBanners :Search Tables
+2022-06-23 20:11:34,486 :INFO :test_HomeBanners :ADDED FIT TEST
+2022-06-23 20:22:10,149 :INFO :test_HomeBanners :Top banner test cases starts from here
+2022-06-23 20:22:10,437 :INFO :test_HomeBanners :['Chocolates', 'Clothing', 'Electroincs', 'Fashion', 'Gifts', 'Mobile', 'Sports & Active Wear', 'Topwear1', "Women's", 'Confectionery', 'Cleaning', 'Food & Drink', 'Sports']
+2022-06-23 20:22:10,437 :INFO :test_HomeBanners :The expected category is matching with the actual
+2022-06-23 20:22:10,438 :INFO :test_HomeBanners :Categories are visible
+2022-06-23 20:22:11,351 :INFO :test_HomeBanners :banner 1 is present
+2022-06-23 20:22:11,803 :INFO :test_HomeBanners :Banner 2 is available
+2022-06-23 20:22:11,912 :INFO :test_HomeBanners :Banner 3 is available
+2022-06-23 20:22:12,008 :INFO :test_HomeBanners :Banner 4 is available
+2022-06-23 20:22:12,036 :INFO :test_HomeBanners :DISCOVER LOCAL SHOPS IN YOUR AREA
+2022-06-23 20:22:12,127 :INFO :test_HomeBanners :['Clothing', 'Beauty', 'Hobbies & Craft', 'Restaurants, Cafes & Bars', 'Alcohol', 'Groceries']
+2022-06-23 20:22:12,127 :INFO :test_HomeBanners :The expected category is matching with the actual
+2022-06-23 20:22:12,141 :INFO :test_HomeBanners :FEATURED LOCAL SUPERMARKETS
+2022-06-23 20:22:12,169 :INFO :test_HomeBanners :FEATURED RESTAURANTS
+2022-06-23 20:22:12,189 :INFO :test_HomeBanners :Safe Entry Booking in favourite Restaurant
+2022-06-23 20:22:12,212 :INFO :test_HomeBanners :Search Tables
+2022-06-23 20:22:12,218 :INFO :test_HomeBanners :ADDED FIT TEST
+2022-06-23 20:27:33,919 :INFO :test_HomeBanners :Top banner test cases starts from here
+2022-06-23 20:27:38,938 :INFO :test_HomeBanners :[]
+2022-06-23 20:27:38,938 :INFO :test_HomeBanners :Variance between actual and expected categories

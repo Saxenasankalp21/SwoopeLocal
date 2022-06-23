@@ -12,9 +12,8 @@ driver = None
 
 
 def pytest_addoption(parser):
-    parser.addoption(
-        "--browser_name", action="store", default="firefox"
-    )
+    parser.addoption("--browser_name", action="store", default="firefox")
+    parser.addoption("--env_name", action="store", default="QA")
 
 
 @pytest.fixture(scope="class")
@@ -28,9 +27,13 @@ def setup(request):
         driver = webdriver.Firefox(service=firefox_servie)
     elif browser_name == "safari":
         driver = webdriver.Safari()
-    driver.delete_all_cookies()
-    driver.get("https://swoopelocaltesting.com/Swoope-Local/public/")
-    driver.maximize_window()
+    env_name = request.config.getoption("env_name")
+    if env_name == "QA":
+        driver.delete_all_cookies()
+        driver.get("https://swoopelocaltesting.com/Swoope-Local/public/")
+        driver.maximize_window()
+    elif env_name == "UAT":
+        pass
     request.cls.driver = driver
     yield
     driver.close()
