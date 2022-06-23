@@ -117,7 +117,7 @@ class TestHomePageBanner(BaseClass):
         log.info(tablesearchbutton.text)
         self.driver.execute_script("arguments[0].scrollIntoView();", tablesearchbutton)
         assert "Search Tables" in tablesearchbutton.text
-        log.info("We have successfully running this from git")
+
 
 
 
