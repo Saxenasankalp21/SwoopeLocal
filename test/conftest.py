@@ -32,7 +32,7 @@ def setup(request):
         driver.get("https://swoopelocaltesting.com/Swoope-Local/public/")
     elif env_name == "UAT":
         pass
-    driver.delete_all_cookies()
+    #driver.delete_all_cookies()
     driver.maximize_window()
     request.cls.driver = driver
     yield
