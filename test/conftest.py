@@ -29,11 +29,11 @@ def setup(request):
         driver = webdriver.Safari()
     env_name = request.config.getoption("env_name")
     if env_name == "QA":
-        driver.delete_all_cookies()
         driver.get("https://swoopelocaltesting.com/Swoope-Local/public/")
-        driver.maximize_window()
     elif env_name == "UAT":
         pass
+    driver.delete_all_cookies()
+    driver.maximize_window()
     request.cls.driver = driver
     yield
     driver.close()
