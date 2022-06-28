@@ -8,7 +8,7 @@ class HomePageElements:
     #test case1 test_HeaderPage
     Location = "/Users/sankalp/PycharmProjects/SwoopeLocal/Screenshots/HomePage/"
     producttitle = (By.XPATH, "html[1]/body[1]/div[2]/header[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]")
-    yourlocation = (By.XPATH, "//h6[contains(text(),'Your Location')]")
+    yourlocationtext = (By.XPATH, "//h6[contains(text(),'Your Location')]")
     searchbox = (By.XPATH, "//input[@id='input-search']")
     searchbutton = (By.XPATH, "//button[contains(text(),'SEARCH')]")
     hearticon = (By.XPATH, "/html[1]/body[1]/div[2]/header[1]/div[1]/div[1]/div[4]/div[1]/a[2]/i[1]")
@@ -36,7 +36,8 @@ class HomePageElements:
         return self.driver.find_element(*HomePageElements.producttitle)
 
     def getYourlocation(self):
-        return self.driver.find_element(*HomePageElements.yourlocation)
+        return self.driver.find_element(*HomePageElements.yourlocationtext)
+
 
     def getSearchBox(self):
         return self.driver.find_element(*HomePageElements.searchbox)

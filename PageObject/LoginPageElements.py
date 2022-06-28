@@ -23,8 +23,6 @@ class LoginPage:
     resetpasswordclosebutton = (By.CSS_SELECTOR, "body.loaded:nth-child(2) div.modal.fade.new_modal_ds.show:nth-child(20) div.modal-dialog.modal-dialog-centered div.modal-content > button.closebtnnew")
     resetsuccessfull = (By.LINK_TEXT, "OK")
 
-
-
     def getLoginButton(self):
         return self.driver.find_element(*LoginPage.loginElement)
 

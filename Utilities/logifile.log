@@ -1,55 +1,18 @@
-2022-06-23 23:43:22,152 :INFO :test_HeaderPage :User info to enter
-2022-06-23 23:43:25,760 :INFO :test_HeaderPage :Logged into the system
-2022-06-23 23:43:28,818 :INFO :test_HeaderPage :Brand Name is present
-2022-06-23 23:43:28,827 :INFO :test_HeaderPage :Your Location
-2022-06-23 23:43:28,838 :INFO :test_HeaderPage :Searchbox is present
-2022-06-23 23:43:28,854 :INFO :test_HeaderPage :Search Button is present
-2022-06-23 23:43:28,875 :INFO :test_HeaderPage :Heart icon is present
-2022-06-23 23:43:28,892 :INFO :test_HeaderPage :Bag icon is present
-2022-06-23 23:43:37,105 :INFO :test_HomeBanners :Top banner test cases starts from here
-2022-06-23 23:43:37,194 :INFO :test_HomeBanners :['Chocolates', 'Clothing', 'Electroincs', 'Fashion', 'Gifts', 'Mobile', 'Sports & Active Wear', 'Topwear1', "Women's", 'Confectionery', 'Cleaning', 'Food & Drink', 'Sports']
-2022-06-23 23:43:37,195 :INFO :test_HomeBanners :The expected category is matching with the actual
-2022-06-23 23:43:37,195 :INFO :test_HomeBanners :Categories are visible
-2022-06-23 23:43:37,514 :INFO :test_HomeBanners :banner 1 is present
-2022-06-23 23:43:37,549 :INFO :test_HomeBanners :Banner 2 is available
-2022-06-23 23:43:37,599 :INFO :test_HomeBanners :Banner 3 is available
-2022-06-23 23:43:37,699 :INFO :test_HomeBanners :Banner 4 is available
-2022-06-23 23:43:37,708 :INFO :test_HomeBanners :DISCOVER LOCAL SHOPS IN YOUR AREA
-2022-06-23 23:43:37,738 :INFO :test_HomeBanners :['Clothing', 'Beauty', 'Hobbies & Craft', 'Restaurants, Cafes & Bars', 'Alcohol', 'Groceries']
-2022-06-23 23:43:37,738 :INFO :test_HomeBanners :The expected category is matching with the actual
-2022-06-23 23:43:54,458 :INFO :test_ValidLoginFlow :User info to enter
-2022-06-23 23:43:57,631 :INFO :test_ValidLoginFlow :Logged into the system
-2022-06-23 23:44:03,655 :INFO :test_ValidLoginFlow :This is the loggged in profile welcome:  Hi -  
-2022-06-23 23:44:14,780 :INFO :test_InvalidLoginFlow :User info to enter
-2022-06-23 23:44:20,966 :INFO :test_InvalidLoginFlow :Something Went Wrong !
-2022-06-23 23:44:30,976 :INFO :test_ForgotPassValid :About to click forgot password
-2022-06-23 23:44:34,037 :INFO :test_ForgotPassValid :Forgot password clicked
-2022-06-23 23:44:38,172 :INFO :test_ForgotPassValid :Mail Entered
-2022-06-23 23:44:43,215 :INFO :test_ForgotPassValid :reset sent
-2022-06-23 23:44:43,228 :INFO :test_ForgotPassValid :OK
-2022-06-23 23:44:54,447 :INFO :test_ForgotPassInvalid :About to click forgot password
-2022-06-23 23:44:57,529 :INFO :test_ForgotPassInvalid :Forgot password clicked
-2022-06-23 23:45:01,671 :INFO :test_ForgotPassInvalid :Mail Entered
-2022-06-23 23:45:06,720 :INFO :test_ForgotPassInvalid :reset sent
-2022-06-23 23:45:06,733 :INFO :test_ForgotPassInvalid :Warning
-2022-06-23 23:45:17,445 :INFO :test_ForgotPassClosebutton :About to click forgot password
-2022-06-23 23:45:20,504 :INFO :test_ForgotPassClosebutton :Forgot password clicked
-2022-06-23 23:49:18,753 :INFO :test_HeaderPage :User info to enter
-2022-06-23 23:49:21,938 :INFO :test_HeaderPage :Logged into the system
-2022-06-23 23:49:24,992 :INFO :test_HeaderPage :Brand Name is present
-2022-06-23 23:49:25,001 :INFO :test_HeaderPage :Your Location
-2022-06-23 23:49:25,014 :INFO :test_HeaderPage :Searchbox is present
-2022-06-23 23:49:25,029 :INFO :test_HeaderPage :Search Button is present
-2022-06-23 23:49:25,043 :INFO :test_HeaderPage :Heart icon is present
-2022-06-23 23:49:25,058 :INFO :test_HeaderPage :Bag icon is present
-2022-06-23 23:49:31,872 :INFO :test_HomeBanners :Top banner test cases starts from here
-2022-06-23 23:49:31,956 :INFO :test_HomeBanners :['Chocolates', 'Clothing', 'Electroincs', 'Fashion', 'Gifts', 'Mobile', 'Sports & Active Wear', 'Topwear1', "Women's", 'Confectionery', 'Cleaning', 'Food & Drink', 'Sports']
-2022-06-23 23:49:31,956 :INFO :test_HomeBanners :The expected category is matching with the actual
-2022-06-23 23:49:31,956 :INFO :test_HomeBanners :Categories are visible
-2022-06-23 23:49:32,426 :INFO :test_HomeBanners :banner 1 is present
-2022-06-23 23:49:32,745 :INFO :test_HomeBanners :Banner 2 is available
-2022-06-23 23:49:32,798 :INFO :test_HomeBanners :Banner 3 is available
-2022-06-23 23:49:32,846 :INFO :test_HomeBanners :Banner 4 is available
-2022-06-23 23:49:32,852 :INFO :test_HomeBanners :DISCOVER LOCAL SHOPS IN YOUR AREA
-2022-06-23 23:49:32,881 :INFO :test_HomeBanners :['Clothing', 'Beauty', 'Hobbies & Craft', 'Restaurants, Cafes & Bars', 'Alcohol', 'Groceries']
-2022-06-23 23:49:32,881 :INFO :test_HomeBanners :The expected category is matching with the actual
+2022-06-28 19:18:08,953 :INFO :test_ValidBookingFlow :User info to enter
+2022-06-28 19:18:12,279 :INFO :test_ValidBookingFlow :Logged into the system
+2022-06-28 19:18:18,788 :INFO :test_ValidBookingFlow :desired Postal code is set
+2022-06-28 19:18:24,358 :INFO :test_ValidBookingFlow :Searched for the restaurants
+2022-06-28 19:18:29,281 :INFO :test_ValidBookingFlow :restaurant found and accessible
+2022-06-28 19:18:29,539 :INFO :test_ValidBookingFlow :Persons selected
+2022-06-28 19:18:31,592 :INFO :test_ValidBookingFlow :True
+2022-06-28 19:18:35,186 :INFO :test_ValidBookingFlow :True
+2022-06-28 19:18:38,815 :INFO :test_ValidBookingFlow :True
+2022-06-28 19:18:42,440 :INFO :test_ValidBookingFlow :True
+2022-06-28 19:18:46,072 :INFO :test_ValidBookingFlow :True
+2022-06-28 19:18:49,712 :INFO :test_ValidBookingFlow :True
+2022-06-28 19:18:53,372 :INFO :test_ValidBookingFlow :True
+2022-06-28 19:18:57,005 :INFO :test_ValidBookingFlow :True
+2022-06-28 19:19:00,671 :INFO :test_ValidBookingFlow :True
+2022-06-28 19:19:15,858 :INFO :test_ValidBookingFlow :Clicked T&C checkbox
+2022-06-28 19:19:15,892 :INFO :test_ValidBookingFlow :Clicked confirm booking button
+2022-06-28 19:19:27,682 :INFO :test_ValidBookingFlow :True
