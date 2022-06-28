@@ -1309,3 +1309,267 @@ JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/my-bookin
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1656442154864	geckodriver	INFO	Listening on 127.0.0.1:50034
+1656442155338	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50035" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofiled5pkFf"
+1656442157297	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50035
+2022-06-29 00:19:17.647 plugin-container[18545:3584867] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:19:17.647 plugin-container[18545:3584867] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:19:17.873 plugin-container[18545:3584867] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:19:17.873 plugin-container[18545:3584867] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:19:17.873 plugin-container[18545:3584865] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:19:17.873 plugin-container[18545:3584865] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofiled5pkFf/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656442159306	Marionette	INFO	Listening on port 50050
+DevTools listening on ws://localhost:50035/devtools/browser/ffcbaee6-8de9-469b-93ee-a0c0a2b2d1f2
+Read port: 50050
+1656442159339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+1656442172075	Marionette	INFO	Stopped listening on port 50050
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656442172533	geckodriver	INFO	Listening on 127.0.0.1:50093
+1656442173047	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50094" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofile1QYVSB"
+1656442173617	Marionette	INFO	Marionette enabled
+2022-06-29 00:19:33.625 plugin-container[18554:3585300] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:19:33.626 plugin-container[18554:3585300] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:19:33.635 plugin-container[18554:3585300] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:19:33.635 plugin-container[18554:3585300] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:19:33.635 plugin-container[18554:3585298] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:19:33.636 plugin-container[18554:3585298] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:50094
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofile1QYVSB/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656442174899	Marionette	INFO	Listening on port 50109
+Read port: 50109
+1656442174925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:50094/devtools/browser/7f0fe457-a9e7-4fa3-b7c2-770cc4e6ec2d
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+1656442180276	Marionette	INFO	Stopped listening on port 50109
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656442180791	geckodriver	INFO	Listening on 127.0.0.1:50153
+1656442181296	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50154" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofiledtUo4a"
+2022-06-29 00:19:41.773 plugin-container[18565:3585700] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:19:41.773 plugin-container[18565:3585700] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:19:41.776 plugin-container[18565:3585700] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:19:41.776 plugin-container[18565:3585700] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:19:41.776 plugin-container[18565:3585706] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:19:41.776 plugin-container[18565:3585706] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656442181793	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50154
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofiledtUo4a/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656442183067	Marionette	INFO	Listening on port 50169
+DevTools listening on ws://localhost:50154/devtools/browser/8a906f82-e2d9-4204-984a-26a5c0f49dec
+Read port: 50169
+1656442183211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://swoopelocaltesting.com/Swoope-Local/public/searchProduct?product_type=2&search_key=The+Barbary, line 2249: TypeError: $(...).owlCarousel is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1656442209123	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/customjs/placeOrder.js?v=3.0, line 827: unreachable code after return statement
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/customjs/dnapPayment.js?v=6.0, line 728: unreachable code after return statement
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/customjs/dnapPayment.js?v=6.0, line 734: unreachable code after return statement
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/The-Barbary--Automation/1, line 8435: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1656442238873	Marionette	INFO	Stopped listening on port 50169
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656442239325	geckodriver	INFO	Listening on 127.0.0.1:50214
+1656442239841	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50215" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofileVoeVtz"
+2022-06-29 00:20:40.245 plugin-container[18579:3586419] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:20:40.245 plugin-container[18579:3586419] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:20:40.248 plugin-container[18579:3586419] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:20:40.248 plugin-container[18579:3586419] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:20:40.248 plugin-container[18579:3586426] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:20:40.248 plugin-container[18579:3586426] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656442240265	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50215
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofileVoeVtz/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656442241549	Marionette	INFO	Listening on port 50232
+DevTools listening on ws://localhost:50215/devtools/browser/2aca6665-8380-44ae-835e-37de4cc18969
+Read port: 50232
+1656442241603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+1656442258275	Marionette	INFO	Stopped listening on port 50232
+1656442258666	geckodriver	INFO	Listening on 127.0.0.1:50273
+1656442259186	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50274" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofileVX5kjr"
+2022-06-29 00:20:59.605 plugin-container[18585:3586837] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:20:59.605 plugin-container[18585:3586837] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:20:59.608 plugin-container[18585:3586837] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:20:59.608 plugin-container[18585:3586837] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:20:59.608 plugin-container[18585:3586835] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:20:59.608 plugin-container[18585:3586835] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656442259626	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50274
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofileVX5kjr/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656442260937	Marionette	INFO	Listening on port 50289
+Read port: 50289
+1656442260961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:50274/devtools/browser/7ae63e76-44d3-41c6-9095-021baedff33c
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+1656442273381	Marionette	INFO	Stopped listening on port 50289
+1656442273827	geckodriver	INFO	Listening on 127.0.0.1:50333
+1656442274350	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50334" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofile6S00rk"
+2022-06-29 00:21:14.790 plugin-container[18596:3587248] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:21:14.790 plugin-container[18596:3587248] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:21:14.793 plugin-container[18596:3587248] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:21:14.793 plugin-container[18596:3587248] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:21:14.793 plugin-container[18596:3587254] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:21:14.793 plugin-container[18596:3587254] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656442274809	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50334
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofile6S00rk/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656442276047	Marionette	INFO	Listening on port 50349
+DevTools listening on ws://localhost:50334/devtools/browser/10dd6186-cfce-4a0f-9cf6-c19f4fda0931
+Read port: 50349
+1656442276134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+1656442299714	Marionette	INFO	Stopped listening on port 50349
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656442300125	geckodriver	INFO	Listening on 127.0.0.1:50392
+1656442300637	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50393" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofilegNkTHq"
+2022-06-29 00:21:41.093 plugin-container[18603:3587683] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:21:41.094 plugin-container[18603:3587683] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:21:41.096 plugin-container[18603:3587683] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:21:41.096 plugin-container[18603:3587683] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:21:41.096 plugin-container[18603:3587689] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:21:41.096 plugin-container[18603:3587689] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656442301115	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50393
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofilegNkTHq/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656442302338	Marionette	INFO	Listening on port 50409
+DevTools listening on ws://localhost:50393/devtools/browser/c305a59e-19d0-4490-824a-b00ea9997e14
+Read port: 50409
+1656442302422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+1656442325559	Marionette	INFO	Stopped listening on port 50409
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656442326017	geckodriver	INFO	Listening on 127.0.0.1:50451
+1656442326536	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50452" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofileK5Q1ul"
+2022-06-29 00:22:06.975 plugin-container[18610:3588098] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:22:06.976 plugin-container[18610:3588098] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:22:06.978 plugin-container[18610:3588098] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:22:06.978 plugin-container[18610:3588098] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 00:22:06.978 plugin-container[18610:3588100] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 00:22:06.978 plugin-container[18610:3588100] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656442326994	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50452
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofileK5Q1ul/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656442328226	Marionette	INFO	Listening on port 50468
+DevTools listening on ws://localhost:50452/devtools/browser/547ad159-06bd-4e14-9aad-353cb082ff2b
+Read port: 50468
+1656442328314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+1656442341058	Marionette	INFO	Stopped listening on port 50468

@@ -1,14 +1,12 @@
 
 import time
 import pytest
-from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from PageObject.BookingFlowElements import BookingFlowElements
-from PageObject.HomePageElements import HomePageElements
 from PageObject.LoginPageElements import LoginPage
 from TestData.TestBookingData import BookingCaseData, BookingSearch
 from TestData.TestLoginData import LoginCasesData
@@ -74,8 +72,10 @@ class TestValidBookingFlow(BaseClass):
                 gotomybooking = booking.clickGotoBooking()
                 self.driver.execute_script("arguments[0].click();", gotomybooking)
                 wait = WebDriverWait(self.driver, 7)
-                wait.until(EC.presence_of_element_located((By.XPATH, "/html[1]/body[1]/div[2]/div[4]/section[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/h2[1]")))
-                confirm = self.driver.find_element(by=By.XPATH, value="/html[1]/body[1]/div[2]/div[4]/section[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/h2[1]")
+                wait.until(EC.presence_of_element_located(
+                    (By.XPATH, "/html[1]/body[1]/div[2]/div[4]/section[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/h2[1]")))
+                confirm = self.driver.find_element(by=By.XPATH,
+                                                   value="/html[1]/body[1]/div[2]/div[4]/section[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/h2[1]")
                 log.info(confirm.is_displayed())
                 break
 
