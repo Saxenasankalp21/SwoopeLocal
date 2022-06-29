@@ -68,20 +68,16 @@ class TestValidBookingFlow(BaseClass):
                 cbutton = booking.clickConfirmBooking()
                 self.driver.execute_script("arguments[0].click();", cbutton)
                 log.info("Clicked confirm booking button")
+                time.sleep(7)
                 self.wait_for_element_to_vanish(overlay_element)
                 gotomybooking = booking.clickGotoBooking()
                 self.driver.execute_script("arguments[0].click();", gotomybooking)
-                wait = WebDriverWait(self.driver, 7)
-                wait.until(EC.presence_of_element_located(
-                    (By.XPATH, "/html[1]/body[1]/div[2]/div[4]/section[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/h2[1]")))
-                confirm = self.driver.find_element(by=By.XPATH,
-                                                   value="/html[1]/body[1]/div[2]/div[4]/section[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/h2[1]")
+                log.info("clicked on go to my bookings button")
+                confirm = booking.getRestConfirm()
+                self.verifyXpathisPresent("/html[1]/body[1]/div[2]/div[4]/section[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/h2[1]")
                 log.info(confirm.is_displayed())
+                log.info(confirm.text)
                 break
-
-
-
-
 
     @pytest.fixture(params=LoginCasesData.test_valid_credentials)
     def getValidLoginData(self, request):

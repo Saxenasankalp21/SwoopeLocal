@@ -1573,3 +1573,216 @@ Read port: 50468
 1656442328314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
 1656442341058	Marionette	INFO	Stopped listening on port 50468
+1656479210272	geckodriver	INFO	Listening on 127.0.0.1:49932
+1656479210281	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49933" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofileezMteL"
+2022-06-29 10:36:51.013 plugin-container[21662:3670726] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 10:36:51.038 plugin-container[21662:3670726] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656479211073	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49933
+2022-06-29 10:36:51.167 plugin-container[21662:3670726] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 10:36:51.167 plugin-container[21662:3670726] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 10:36:51.167 plugin-container[21662:3670753] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 10:36:51.167 plugin-container[21662:3670753] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofileezMteL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656479212762	Marionette	INFO	Listening on port 49959
+DevTools listening on ws://localhost:49933/devtools/browser/223a7873-e7a7-46ce-9ee5-d23f89b143ff
+Read port: 49959
+1656479212800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://swoopelocaltesting.com/Swoope-Local/public/searchProduct?product_type=2&search_key=The+Barbary, line 2249: TypeError: $(...).owlCarousel is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1656479236958	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/customjs/placeOrder.js?v=3.0, line 827: unreachable code after return statement
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/customjs/dnapPayment.js?v=6.0, line 728: unreachable code after return statement
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/customjs/dnapPayment.js?v=6.0, line 734: unreachable code after return statement
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/The-Barbary--Automation/1, line 8820: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/my-booking, line 4752: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1656479689977	geckodriver	INFO	Listening on 127.0.0.1:53440
+1656479690490	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53441" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofileYOPKw8"
+2022-06-29 10:44:50.992 plugin-container[21803:3675357] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 10:44:50.993 plugin-container[21803:3675357] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 10:44:51.020 plugin-container[21803:3675357] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 10:44:51.020 plugin-container[21803:3675357] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 10:44:51.020 plugin-container[21803:3675355] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 10:44:51.020 plugin-container[21803:3675355] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656479691040	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53441
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofileYOPKw8/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656479692577	Marionette	INFO	Listening on port 53471
+DevTools listening on ws://localhost:53441/devtools/browser/767ad642-6313-4d5d-a764-cb3e6efe138a
+Read port: 53471
+1656479692680	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656479693585	Marionette	INFO	Stopped listening on port 53471
+1656479693894	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656479719260	geckodriver	INFO	Listening on 127.0.0.1:54034
+1656479719791	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54035" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofileVgYsPS"
+1656479720459	Marionette	INFO	Marionette enabled
+2022-06-29 10:45:20.471 plugin-container[21819:3676061] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 10:45:20.471 plugin-container[21819:3676061] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 10:45:20.550 plugin-container[21819:3676061] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 10:45:20.550 plugin-container[21819:3676061] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-29 10:45:20.550 plugin-container[21819:3676059] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-29 10:45:20.550 plugin-container[21819:3676059] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:54035
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/s9/k0rl3xmd0zv3mhdxgnhxjq_r0000gn/T/rust_mozprofileVgYsPS/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656479722238	Marionette	INFO	Listening on port 54104
+DevTools listening on ws://localhost:54035/devtools/browser/d263a1b8-34b3-46be-bdab-0c7d2deb4259
+Read port: 54104
+1656479722297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/, line 3143: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://swoopelocaltesting.com/Swoope-Local/public/searchProduct?product_type=2&search_key=The+Barbary, line 2249: TypeError: $(...).owlCarousel is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1656479747271	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/customjs/placeOrder.js?v=3.0, line 827: unreachable code after return statement
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/customjs/dnapPayment.js?v=6.0, line 728: unreachable code after return statement
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/customjs/dnapPayment.js?v=6.0, line 734: unreachable code after return statement
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/The-Barbary--Automation/1, line 8817: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://swoopelocaltesting.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://swoopelocaltesting.com/Swoope-Local/public/my-booking, line 4767: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

@@ -34,9 +34,9 @@ class BaseClass:
         element = WebDriverWait(self.driver, 15).until(
             expected_conditions.presence_of_element_located((By.ID, id)))
 
-    def verifyXpathisPresent(self, Xpath):
+    def verifyXpathisPresent(self, XPATH):
         element = WebDriverWait(self.driver, 15).until(
-            expected_conditions.presence_of_element_located((By.XPATH, Xpath)))
+            expected_conditions.presence_of_element_located((By.XPATH, XPATH)))
 
     def implicitWait(self):
         self.driver.implicitly_wait(30)
@@ -58,7 +58,7 @@ class BaseClass:
     def wait_for_element_to_vanish(self, element: WebElement) -> bool:
         is_displayed = element.is_displayed()
         start_time = self.get_current_time_in_millis()
-        while is_displayed and not self.is_time_out(start_time, 6):
+        while is_displayed and not self.is_time_out(start_time, 8):
             is_displayed = element.is_displayed()
 
         return not is_displayed

@@ -21,7 +21,8 @@ class BookingFlowElements:
     tncbox = (By.XPATH, "/html[1]/body[1]/div[10]/div[1]/div[1]/div[1]/form[1]/div[3]/label[1]/span[1]")
     confirmbookingbutton = (By.ID, "guestlistbut")
     gotobookings = (By.XPATH, "//body/div[@id='app']/div[@id='sucessModalR']/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/a[1]")
-    bookingconfirmation = (By.XPATH, "//body/div[@id='app']/div[4]/section[1]/div[1]/div[2]/ul[1]/li[4]/a[1]/div[1]/h4[1]")
+    bookingconfirmation = (By.XPATH, "/html[1]/body[1]/div[2]/div[4]/section[1]/div[1]/div[2]/ul[1]/li[2]/div[1]/h2[1]")
+    bookingid = (By.XPATH, "/html[1]/body[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]")
 
 
     ##Overalt excpetion element
@@ -82,3 +83,6 @@ class BookingFlowElements:
 
     def getRestConfirm(self):
         return self.driver.find_element(*BookingFlowElements.bookingconfirmation)
+
+    def getBookingId(self):
+        return self.driver.find_element(*BookingFlowElements.bookingid)
