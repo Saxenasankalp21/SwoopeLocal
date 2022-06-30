@@ -135,6 +135,7 @@ class TestSlotFullBookingFlow(BaseClass):
                 log.info(booking.getSlotWarning().is_displayed())
                 booking.slotOk().click()
                 log.info("Reservation Slots are now full for the time")
+                log.info("This is deve branc check")
                 break
             else:
                 booking.clickBookButton().click()
@@ -158,6 +159,7 @@ class TestSlotFullBookingFlow(BaseClass):
                 log.info(confirm.is_displayed())
                 log.info(confirm.text)
                 i = i + 1
+
 
 
 
